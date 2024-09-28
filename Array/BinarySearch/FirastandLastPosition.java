@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-// find first and last position of and give target in array if presetns that num in array else return [-1,-1]
+// find first and last position of an give target in array if presetns that num in array else return [-1,-1]
 
 public class FirastandLastPosition {
     public static void main(String[] args) {
