@@ -1,10 +1,10 @@
 public class SmallestLetter {
     public static void main(String[] args) {
         char[] arr = { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
-        char target = 'f';
+        char target = 'b';
         char result = smallestLe(arr, target);
         System.out.println(result);
-    }
+     }
 
     static char smallestLe(char[] arr, char target) {
         int start = 0;
