@@ -3,6 +3,7 @@ public class InfiniteArrayElement {
     // let assume an infinite array or in sorted format
     // where we to find given target without using an Length function or feature
     // Amazon Interview question.
+    // it is not sutaible for an last element
 
     public static void main(String[] args) {
 
@@ -12,6 +13,7 @@ public class InfiniteArrayElement {
         System.out.println(ans(arr, target));
 
     }
+
     static int ans(int[] arr, int target) {
         int start = 0;
         int end = 1;
