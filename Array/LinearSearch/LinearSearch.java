@@ -2,7 +2,7 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int[] arr = { 10, 50, 60, 70, 80, 90, 40, 50, 30, 602, 8 };
-        int target=;
+        int target=30;
         int result=seaRch(arr, target);
         System.out.println(result);
     }
